@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaQuery.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="img/soluciones-icono.avif" />
+
+
+    <title>Portafolio | David Imbaquingo</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!------------------- HEADER ----------------------->
+      <nav id="header">
+        <div class="nav-logo">
+          <span><i class="fa-solid fa-code"></i></span>
+          <p class="nav-name">Davicho</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link active-link">Habilidades</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#servicios" class="nav-link active-link">Servicios</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#proyectos" class="nav-link active-link">Proyectos</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contactame" class="nav-link active-link">Contactame</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="darkmode">
+                <button class="switch" id="switch">
+                    <span><i class="fa-solid fa-sun"></i></span>
+                    <span><i class="fa-solid fa-moon"></i></span>
+                </button>
+            </div> -->
+        <div class="nav-menu-btn">
+          <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+      <main class="wrapper">
+        <section class="sec-home" id="home">
+          <div class="informacion">
+            <div class="informacion-texto-card">
+              <h1><span>Ing. David Imbaquingo</span></h1>
+            </div>
+
+            <div class="informacion-especialidad">
+              <p>Yo soy,</p>
+              <span class="typedText"></span>
+            </div>
+            <div class="informacion-texto-info">
+              <p>Apasionado en aprender con el fin de mejorar!!</p>
+            </div>
+            <div class="informacion-btn">
+              <button class="btn blue-btn" onclick="location.href='https://wa.me/message/K366RXAGAWO2J1'">Contactame</button>
+              <button class="btn" onclick="window.open('./curriculum.pdf')">
+                Descarga mi CV <i class="fa-solid fa-paperclip"></i>
+              </button>
+            </div>
+            <div class="iconos-sociales">
+              <div class="icon facebook" >
+                <i class="fa-brands fa-facebook" onclick="location.href=''"></i>
+              </div>
+              <div class="icon github"><i class="fa-brands fa-github" onclick="location.href='https://github.com/Davicho1407'"></i></div>
+              <div class="icon linkedin">
+                <i class="fa-brands fa-linkedin" onclick="location.href='https://www.linkedin.com/in/david-imbaquingo-7ba499161/'"></i>
+              </div>
+            </div>
+          </div>
+          <div class="informacion-image">
+            <div class="image">
+              
+              <img src="img/imagen-portada.png" alt="David Imbaquingo" />
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="fa-solid fa-computer-mouse"></i>
+              <p>Desliza hacia abajo</p>
+            </a>
+          </div>
+        </section>
+        <section class="section about" id="about">
+          <p class="section-subtitle-text">Explora mis</p>
+          <h2 class="section-title-text">Habilidades</h2>
+          <div class="row">
+            <div class="col">
+              <div class="img-introduccion">
+                <figure>
+                  <img src="/img/logo-setup.png" alt="Mi Setup" />
+                </figure>
+              </div>
+            </div>
+            <div class="col">
+              <div class="sobre-mi">
+                <h3>Mi introducción</h3>
+                <p>
+                  Soy ingeniero de computación apasionado por la tecnología.
+                  Busco liderazgo, equilibrio personal y profesional,
+                  crecimiento en mi carrera, y una vida satisfactoria.
+                  Desarrollo habilidades en programación, algoritmos, redes e
+                  inteligencia artificial para soluciones innovadoras en
+                  software y ciberseguridad.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="caja-habilidades">
+                <div class="titulo-habilidades">
+                  <h3>Front-end</h3>
+                </div>
+                <div class="lista-habilidades">
+                  <div class="tag">
+                    <span><img src="img/html5.ico" alt="Html5" /></span>HTML
+                  </div>
+                  <div class="tag">
+                    <span><img src="img/css.ico" alt="CSS" /></span>CSS
+                  </div>
+                  <div class="tag">
+                    <span
+                      ><img src="img/javascript.ico" alt="JavaScript" /></span
+                    >JavaScript
+                  </div>
+                  <div class="tag">
+                    <span><img src="img/angular.ico" alt="Angular" /></span
+                    >Angular
+                  </div>
+                  <div class="tag">
+                    <span><img src="img/vue.ico" alt="Vue" /></span>Vue
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="caja-habilidades">
+                <div class="titulo-habilidades">
+                  <h3>Back-end</h3>
+                </div>
+                <div class="lista-habilidades">
+                  <div class="tag">
+                    <span><img src="img/java.ico" alt="Java" /></span>Java
+                  </div>
+                  <div class="tag">
+                    <span><img src="img/python.ico" alt="Python" /></span>Python
+                  </div>
+                  <div class="tag">
+                    <span><img src="img/php.ico" alt="PHP" /></span>PHP
+                  </div>
+                  <div class="tag">
+                    <span><img src="img/node.ico" alt="Node.js" /></span>Node.js
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="caja-habilidades">
+                <div class="titulo-habilidades">
+                  <h3>Base de datos</h3>
+                </div>
+                <div class="lista-habilidades">
+                  <div class="tag">
+                    <span><img src="img/mysql.ico" alt="MySQL" /></span>MySQL
+                  </div>
+                  <div class="tag">
+                    <span><img src="img/firebase.ico" alt="Firebase" /></span
+                    >Firebase
+                  </div>
+                  <div class="tag">
+                    <span><img src="img/mongodb.ico" alt="MongoDB" /></span
+                    >MongoDB
+                  </div>
+                  <div class="tag">
+                    <span
+                      ><img src="img/postgresql.ico" alt="PosgretSQL" /></span
+                    >PosgretSQL
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section services" id="servicios">
+          <p class="section-subtitle-text">Explora mis</p>
+          <h2 class="section-title-text">Servicios</h2>
+          <div class="servicios-container">
+            <div class="card" style="--clr: #ff3e7f">
+              <div class="imgBx">
+                <img
+                  class="card-image"
+                  src="img/soporte_tecnico.ico"
+                  alt="Servicio de soporte técnico"
+                />
+              </div>
+              <div class="content">
+                <h2 class="text-title-service">Soporte técnico</h2>
+                <p>
+                  Optimiza tu tecnología con nuestro soporte experto disponible las 24 horas. Soluciones rápidas y confiables para tus necesidades informáticas.¡Contáctame hoy mismo!
+                </p>
+              </div>
+            </div>
+            <div class="card" style="--clr: #03a9f4">
+              <div class="imgBx">
+                <img
+                  class="card-image"
+                  src="img/investigacion.ico"
+                  alt="Servicio de soporte técnico"
+                />
+              </div>
+              <div class="content">
+                <h2 class="text-title-service">Documentación</h2>
+                <p>
+                  Mejora tus investigaciones con nuestro apoyo experto. Redacción precisa y confiable para tus proyectos académicos.
+                </p>
+              </div>
+            </div>
+            <div class="card" style="--clr: #009688">
+              <div class="imgBx">
+                <img
+                  class="card-image"
+                  src="img/desarrollo-sitios.ico"
+                  alt="Servicio de creación de sitios web"
+                />
+              </div>
+              <div class="content">
+                <h2 class="text-title-service">WebDesign</h2>
+                <p>
+                  Impulsa tu presencia online con nuestro apoyo experto. Desarrollo web profesional y personalizado para destacar en la web.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section proyectos" id="proyectos">
+          <p class="section-subtitle-text">Explora mis</p>
+          <h2 class="section-title-text">Proyectos</h2>
+          <div class="proyectos-container">
+            <article class="article-wrapper">
+              <div class="rounded-lg container-project">
+                <figure class="img-proyect">
+                  <img src="img/proyecto_1.png" alt="Proyecto SMT APP" />
+                </figure>
+              </div>
+              <div class="project-info">
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap">SMT APP</div>
+                  <div class="project-hover" onclick="location.href='https://github.com/Davicho1407/smtapp/tree/master'">
+                    <svg
+                      style="color: black"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1.9em"
+                      height="1.9em"
+                      color="black"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      viewBox="0 0 22 22"
+                      stroke-width="2"
+                      fill="none"
+                      stroke="currentColor"
+                    >
+                      <line y2="12" x2="19" y1="12" x1="5"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </div>
+                </div>
+                <div class="types">
+                  <span
+                    style="
+                      background-color: rgba(165, 96, 247, 0.43);
+                      color: rgb(85, 27, 177);
+                    "
+                    class="project-type"
+                    >Flutter</span
+                  >
+                  <span class="project-type">Firebase</span>
+                  <span
+                    style="
+                      background-color: rgba(165, 96, 247, 0.43);
+                      color: rgb(85, 27, 177);
+                    "
+                    class="project-type"
+                    >Arduino</span
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="article-wrapper">
+              <div class="rounded-lg container-project">
+                <figure class="img-proyect">
+                  <img src="img/proyecto_2.png" alt="UPECMyLibrary" />
+                </figure>
+              </div>
+              <div class="project-info">
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap">UPECMyLibrary</div>
+                  <div class="project-hover" onclick="location.href='https://github.com/Davicho1407/bibliotecaUpec'">
+                    <svg
+                      style="color: black"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1.9em"
+                      height="1.9em"
+                      color="black"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      viewBox="0 0 22 22"
+                      stroke-width="2"
+                      fill="none"
+                      stroke="currentColor"
+                    >
+                      <line y2="12" x2="19" y1="12" x1="5"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </div>
+                </div>
+                <div class="types">
+                  <span
+                    style="
+                      background-color: rgba(165, 96, 247, 0.43);
+                      color: rgb(85, 27, 177);
+                    "
+                    class="project-type"
+                    >Flutter</span
+                  >
+                  <span class="project-type">Firebase</span>
+                  <span
+                    style="
+                      background-color: rgba(165, 96, 247, 0.43);
+                      color: rgb(85, 27, 177);
+                    "
+                    class="project-type"
+                    >PHP</span
+                  >
+                  <span class="project-type">MySQL</span>
+                </div>
+              </div>
+            </article>
+            <article class="article-wrapper">
+              <div class="rounded-lg container-project">
+                <figure class="img-proyect">
+                  <img src="img/proyecto_3.png" alt="Proyecto SMT APP" />
+                </figure>
+              </div>
+              <div class="project-info">
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap">Hotel Alura</div>
+                  <div class="project-hover">
+                    <svg
+                      style="color: black"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1.9em"
+                      height="1.9em"
+                      color="black"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      viewBox="0 0 22 22"
+                      stroke-width="2"
+                      fill="none"
+                      stroke="currentColor"
+                    >
+                      <line y2="12" x2="19" y1="12" x1="5"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </div>
+                </div>
+                <div class="types">
+                  <span
+                    style="
+                      background-color: rgba(165, 96, 247, 0.43);
+                      color: rgb(85, 27, 177);
+                    "
+                    class="project-type"
+                    >Spring Boot</span
+                  >
+                  <span class="project-type">MySQL</span>
+                </div>
+              </div>
+            </article>
+            <article class="article-wrapper">
+              <div class="rounded-lg container-project">
+                <figure class="img-proyect">
+                  <img src="img/proyecto_4.png" alt="Proyecto SMT APP" />
+                </figure>
+              </div>
+              <div class="project-info">
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap">Patitas Andantes</div>
+                  <div class="project-hover">
+                    <svg
+                      style="color: black"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1.9em"
+                      height="1.9em"
+                      color="black"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      viewBox="0 0 22 22"
+                      stroke-width="2"
+                      fill="none"
+                      stroke="currentColor"
+                    >
+                      <line y2="12" x2="19" y1="12" x1="5"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </div>
+                </div>
+                <div class="types">
+                  <span
+                    style="
+                      background-color: rgba(165, 96, 247, 0.43);
+                      color: rgb(85, 27, 177);
+                    "
+                    class="project-type"
+                    >Arduino</span
+                  >
+                  <span class="project-type">C++</span>
+                </div>
+              </div>
+            </article>
+            <article class="article-wrapper">
+              <div class="rounded-lg container-project">
+                <figure class="img-proyect">
+                  <img src="img/proyecto_5.png" alt="Encriptador de texto" />
+                </figure>
+              </div>
+              <div class="project-info">
+                <div class="flex-pr">
+                  <div class="project-title text-nowrap">
+                    Encriptador de texto
+                  </div>
+                  <div class="project-hover" onclick="location.href='https://github.com/Davicho1407/Reto-Encriptador-de-Texto'">
+                    <svg
+                      style="color: black"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1.9em"
+                      height="1.9em"
+                      color="black"
+                      stroke-linejoin="round"
+                      stroke-linecap="round"
+                      viewBox="0 0 22 22"
+                      stroke-width="2"
+                      fill="none"
+                      stroke="currentColor"
+                    >
+                      <line y2="12" x2="19" y1="12" x1="5"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </div>
+                </div>
+                <div class="types">
+                  <span
+                    style="
+                      background-color: rgba(165, 96, 247, 0.43);
+                      color: rgb(85, 27, 177);
+                    "
+                    class="project-type"
+                    >HTML</span
+                  >
+                  <span class="project-type">CSS</span>
+                  <span
+                    style="
+                      background-color: rgba(165, 96, 247, 0.43);
+                      color: rgb(85, 27, 177);
+                    "
+                    class="project-type"
+                    >JavaScript</span
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="section contactame" id="contactame">
+          <p class="section-subtitle-text">¿Que te parece?</p>
+          <h2 class="section-title-text">Contactame</h2>
+          <div class="row">
+            <div class="col">
+              <div class="contacto-informacion">
+                <div class="tools">
+                  <div class="circle">
+                    <span class="red box"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="yellow box"></span>
+                  </div>
+                  <div class="circle">
+                    <span class="green box"></span>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div class="text-card">
+                    <h3>Hola mundo!!</h3>
+                  </div>
+                  <div class="text-card">
+                    <h4>Email:</h4>
+                  </div>
+                  <div class="text-card">
+                    <h5>davidimbaquingoayala@hotmail.com</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-control" id="emailForm">
+                <div class="form-inputs">
+                  <input type="text" class="input-field" placeholder="Nombre" id="nombre" autocomplete="family-name"/>
+                  <input type="text" class="input-field" placeholder="Email" id="email" autocomplete="off" />
+                </div>
+                <div class="text-area">
+                  <textarea placeholder="Mensaje" id="mensaje"></textarea>
+                </div>
+                <div class="form-button">
+                  <button class="btn" onclick="sendEmail()">
+                    Enviar <i class="fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="top-footer">
+          <h2><i class="fa-solid fa-code"></i> David Imbaquingo</h2>
+        </div>
+        <div class="medio-footer">
+          <ul class="footer-menu">
+            <li class="footer-menu-lista"><a href="#home">Home</a></li>
+            <li class="footer-menu-lista"><a href="#about">Sobre mi</a></li>
+            <li class="footer-menu-lista">
+              <a href="#servicios">Servicios</a>
+            </li>
+            <li class="footer-menu-lista">
+              <a href="#proyectos">Proyectos</a>
+            </li>
+            <li class="footer-menu-lista">
+              <a href="#contactame">Contactame</a>
+            </li>
+          </ul>
+        </div>
+        <div class="iconos-sociales-footer">
+          <div class="icon facebook">
+            <i class="fa-brands fa-facebook" onclick="location.href=''"></i>
+          </div>
+          <div class="icon github"><i class="fa-brands fa-github" onclick="location.href='https://github.com/Davicho1407/'"></i></div>
+          <div class="icon linkedin">
+            <i class="fa-brands fa-linkedin" onclick="location.href='https://www.linkedin.com/in/david-imbaquingo-7ba499161/'"></i>
+          </div>
+        </div>
+        <div class="fin-footer">
+          <p>Copyright &copy <a href="#home" style="text-decoration: none;">David Imbaquingo</a> - Todos los derechos reservados</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/54aaf8d9a3.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">(function(){emailjs.init("pFgESng2rLqDypm2O");})();</script
+</html>
